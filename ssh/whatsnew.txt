@@ -1,0 +1,193 @@
+1.0
+	-1 new map (21)
+	-Added plasma bomb nades for mp5.
+	-Scientists get turned into skeletons by acid.
+	-Added guided slipstream weapon to nephilim agent.
+	-Added otis.
+	-Added water elemental.
+	-Laser pistol got 3 forceweb secondaries, one for each color.
+	-Added ability to scatter scientists into deathmatch maps.
+	-Fixed the sniper rifle zoom and other mode switches that were
+		being toggled at "light speed".
+	-Added sword weapon.
+	-Added crane entity.
+	-Orbital plasma cannon strikes can be called with satchels. Switch
+		mode with tertiary attack.
+	-Alien slaves can resurrect dead friends.
+	-Fixed monsters going really fast when on conveyors.
+	-Added new body models for the zombies.
+
+0.91
+	-Added laser ammo for shotgun.
+	-Fixed scientist model bugs.
+	-Fixed env_fog.
+	-Fixed clientside weapons firing while console is down.
+
+0.9
+	-2 new maps (20, training 2)
+	-Transfered code to HL SDK 2.2.
+	-Moved some weapons clientside.
+	-New flamethrower effect.
+	-Added sci head monster.
+	-The gluon gun got a new firing mode that fires ion beams.
+	-Nephilim Agent improved with several new attacks.
+	-Target ID display enhanced with a battle power readout and moved the display code
+		clientside.
+	-Increased sphere explosion mesh resolution.
+	-Added ssh_hazardmode & ssh_chaosmode cvars to control monster behavior.
+	-Added ssh_monstergibs & ssh_scigibs cvars to control the number of gibs created 		when monsters get gibbed.
+	-Crossbow can fire bolts in a 5 shot spread now. Hold secondary then fire to do it.
+	-Nepha alien slave learned SplitForm.
+	-Displacer has secondary fire that shoots a homing energy disk.
+	-Added Biocide sphere & cube drone monsters.
+	-Displacer secondary fires a guided energy disk.
+	-Energy disk attacks can cut a scientist in half.
+	-When a barnacle eats a sci its legs fall off instead of disappearing.
+	-Improved the fire damage burning effect on monsters.
+	-Added env_fog, custom fog entity
+	-Respawning enabled in singleplayer.
+	-Players always have HEV suit. As a result, the HEV suit entity now gives
+		+100 health & armor.
+	-Health & armor max raised to 300. Player has an energy shield if his armor is above 		100.
+	-Scoreboard now lists sci deaths for each of the 4 scientists.
+
+0.8a
+	-Moved the rain & bloodtrail effects clientside. (this is the fix for the level 		switch event bug)
+	-Fixed invisible EMP handgrenades for player.
+	-Fixed missing target ID display.
+	-Fixed some 3rd little visual glitch which I don't remember right now.
+
+0.8
+	-2 new maps (18, 19)
+	-Replaced the rocket target-tracking code. Doesn't do those ugly sharp corners
+		anymore.
+	-Fixed the rocket trails "bouncing" when a rocket explodes.
+	-TFC sentry 3 got heatseeking missiles.
+	-Implemented time-based damage for monsters (I've only been planning to
+		do it since 0.1).
+	-Human grunt got laser grenades, emp grenades and plasma bombs.
+	-Added remote guided missile, plasma bombs & emp warheads for RPG.
+	-Added freezethrower weapon.
+	-Added sniper missile boxes. Build with the sniper rifle by pressing attack3.
+	-Added sniper laser missile. Fire with attack3 while holding primary fire. Requires
+		a missile box.
+	-Created a new effect for the fireball launcher.
+	-Repulsor gun now has a tractor beam that can be used with attack3.
+	-Added Nephilim-mutated xen plant light.
+	-Reflection laser fires a wall-piercing cutter beam with secondary attack.
+	-2 new hornet types for agrunt & hivehand, orange does fire damage and light blue
+		freezes.
+	-Hand grenade got a new mode 3 with repulsor & emp grenades.
+	-New texture for the vortex launcher.
+
+0.7
+	-1 new map (17)
+	-Added cleansuit scientist
+	-Added hint node support for talkmonsters
+	-Added env_rain
+	-Added tesla coil turret. Player can charge it up with the tesla weapon, like
+		in C&C Red Alert 2 :-).
+	-Gluon gun has an alternate mode that fires an antimatter beam, switch with
+		3rd attack button.
+	-MP5 can fire laser blast grenades, switch with attack3.
+	-Crossbow can fire laser net darts, switch with attack3 and fire more than one
+		into the same area to create a net of laser beams.
+	-Gave photon torpedoes to apaches.
+	-Added 2 types of cluster bombs as alternates for hand grenade, switch mode
+		with attack3. Primary splits into 6 bombs, secondary into 40 mini-bombs.
+	-Fixed monstermakers creating extra apaches when told to create only one at a time.
+		(heh, I had 6 apaches in level 6 once :-)
+	-Fire & electrical damage effects now affect all monsters (well almost), instead
+		of just scientists.
+	-Increased maximum ammo limits & ammo pickup amounts for some weapons.
+	-Added scoreboard. Now you know how many scis you have killed.
+	-Added 2 more hud weapon selection slots, 6 and 7 and reordered weapons.
+	-Enabled gauss-jumping in single-player.
+	-Fixed impulse 101 cheat only giving HL weapons.
+
+0.6
+	-3 new maps (15, 16, training 1)
+	-Replaced HL hazard course. Currently has 1 map, a battle simulator.
+	-New hud colors. The usual NA color with white highlights. Also colored damage
+		type icons.
+	-Secondary fire for vortex launcher. Fires black hole rockets.
+	-Secondary fire for tripmines. Lays down mini laser turrets.
+	-MP5 can fire incendiary grenades, switch with 3rd attack.
+	-Added multi-beam map entity.
+	-Gib blood trails now leave decals, too.
+	-Made blood decals a brighter red color. Makes them more visible.
+	-Human grunt got incendiary grenade launcher.
+	-Added opposing force barney & grunt zombies in addition to scientist ones.
+	-Switched the soft metal accelerator to use opposing force desert eagle model.
+
+0.5
+	-2 new levels (12, 14)
+	-New main menu graphics
+	-Added tesla coil weapon
+	-Created a new damage visual for electricity on scientists. In addition to the
+		sparks like the old version, it also has a whole lot of bolts.
+	-Added 3rd function for shotgun, switches to explosive rounds.
+	-Added Nephilim Alien Grunt. It is also telepathic with the ability to paralyze
+		scientists.
+	-Added Nephilim Agent. No description available at this time.
+	-Added sphere turret monster. Shoots disruptor blasts.
+	-Pulse laser got alternate color schemes. Switch with sec. attack.
+	-Barney also got the alternate laser colors.
+	-Rendered a new sprite for the flamethrower. This one looks less like
+		an explosion.
+	-Changed the way flamelets are created when scis are incinerated. Previously one
+		was created for each impact, which caused the flamethrower to create too
+		many and most other weapons too few. Now its based on damage amount.
+	-Weapons that glow in the world now glow in hand. Helps distinguish between the
+		different weapons.
+	-Gib blood trails. Some of the (human) gibs now drop trails of blood.
+
+0.4
+	-3 new levels (9, 10, 11)
+	-Floating gibs. Any gib has a 50% chance of floating in water.
+	-Scientists now drown in water like player
+	-Tweaked the squad-forming AI a bit. Monsters created by monstermaker or osprey
+		will now form squads more often.
+	-Reordered some of the new weapons to make them selectable in the hud.
+
+0.3:
+	-2 new levels (7, 8)
+	-Added vortex launcher weapon
+	-Added soft metal accelerator weapon
+	-Apache got heat seeking missiles
+	-Nephilim copter got 3 new sec. weapons:
+		* heat seeking bio-missiles
+		* vortex missiles
+		* Nephilim torpedos (hyperspace flux)
+	-Added Nephilim-assimilated alien slave
+	-Added teleport fx entity
+	-Added osprey with flight ai
+	-Added bomber osprey
+	-Decapitated scis spray blood like a fountain. Lots of it.
+	-Crossbow gets explosive ammo, switch with attack3
+	-Finished and tested entity multilinking
+	-Added ability for a turret to set view like a camera while operating
+
+0.2:
+	-2 new levels (5, 6).
+	-Scientist heads can be shot off.
+	-Added laser pistol weapon.
+	-Flamethrower secondary shoots acid. Needs acid ammo tanks.
+	-Hand grenade secondary throws napalm grenade.
+	-Hornetgun now has 4 firing modes, switched with sec.fire:
+		* red hornets are like normal, old hl hornets
+		* green hornets fly straight, and will fly through some targets
+		* blue hornets fly straight and bounce off walls
+		* yellow hornets are like red but aim for the head. If it hits
+		 a scientist it will burrow in his head and make it explode.
+	-Alien grunt also gets new hornetgun.
+	-Added Nephilim helicopter unit.
+	-Apache got new incendiary rockets.
+	-Finished beam shootpoint for turrets.
+	-Added respawning breakable entity.
+	-Gave the gman a new briefcase with NA logo.
+	-Finished the beam ring shockwave entity.
+	-Human grunt got napalm grenades.
+	-Barney got laser pistol.
+
+0.1 First release
